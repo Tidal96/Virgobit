@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 .container h1 {
-  margin: 80px 150px;
+  margin: 110px 150px;
   font-weight: 400;
 }
 .content-header {
@@ -50,7 +50,7 @@
   font-size: 14px;
   margin-top: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .content-right {
     flex-direction: column;
   }

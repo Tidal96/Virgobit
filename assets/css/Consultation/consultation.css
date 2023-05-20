@@ -1,0 +1,150 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+h1 {
+  font-weight: 400;
+  margin: 200px 0px 50px 65px;
+}
+
+.container-form {
+  position: relative;
+  left: 5%;
+}
+.content-header {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.service {
+  display: flex;
+  margin: 10px 0px;
+}
+.service-content {
+  box-sizing: border-box;
+  border: 3px solid #a696c7;
+  border-radius: 5px;
+  width: 185px;
+  height: 150px;
+  margin-right: 36px;
+  /* position: relative;
+  left: 15%; */
+}
+.service-img {
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  top: 14%;
+  position: relative;
+}
+.text-dark {
+  color: #00031b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  left: 18%;
+  top: 20%;
+  /* margin: 10px 0px; */
+  /* position: relative; 
+   */
+}
+.text {
+  left: 5%;
+}
+.input {
+  padding-left: 5px;
+  margin-right: 15px;
+  /* box-sizing: border-box; */
+  /* position: absolute; */
+  width: 305px;
+  height: 45px;
+  margin-top: 10px;
+  opacity: 0.55;
+  border: 1.5px solid #00031b;
+  border-radius: 5px;
+  /* left: 100px;
+  top: 380px; */
+}
+.input-medium {
+  padding-left: 5px;
+  width: 625px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0.55;
+  border: 1.5px solid #00031b;
+  border-radius: 5px;
+}
+.input-long {
+  padding-left: 5px;
+  width: 625px;
+  height: 150px;
+  margin: 10px 0px;
+  opacity: 0.55;
+  border: 1.5px solid #00031b;
+  border-radius: 5px;
+}
+.button {
+  width: 620px;
+  height: 35px;
+  background-color: #bd6df2;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-family: "Fredoka";
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.container-img {
+  position: relative;
+  left: 12%;
+  bottom: 230px;
+}
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .content-header {
+    flex-direction: column;
+  }
+
+  .input {
+    /* width: 85vw; */
+    width: 410px;
+    height: 56px;
+  }
+  .input-medium {
+    /* width: 85vw; */
+    width: 410px;
+    height: 56px;
+  }
+  .service-content {
+    width: 111.97px;
+    height: 88.4px;
+    /* width: 25vw;
+    height: 25vw;
+    border: 1.76797px solid #00031b;
+    border-radius: 2.94662px; */
+  }
+  .input-long {
+    /* width: 85vw; */
+    width: 410px;
+  }
+  .button {
+    /* width: 85vw; */
+    width: 410px;
+  }
+  .container-img {
+    width: 85%;
+    bottom: 20px;
+    left: 10px;
+  }
+  .text-dark {
+    font-size: 11px;
+  }
+}
